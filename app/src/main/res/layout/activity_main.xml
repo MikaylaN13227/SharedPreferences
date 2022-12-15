@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Shared Preferences"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:hint="Enter your Name"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit1"
+        android:hint="Enter your Age"
+        android:inputType="number"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
